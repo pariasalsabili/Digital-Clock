@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap">
+</head>
+<body>
+    <div class="hero">
+        <div class="container">
+            <div class="clock">
+                <span id="hrs">00</span>
+                <span>:</span>
+                <span id="min">00</span>
+                <span>:</span>
+                <span id="sec">00</span>
+                <span id="ampm">AM</span>
+            </div>
+            <div class="date" id="date"></div>
+        </div>
+    </div>
+    <button class="theme-button">Toggle Theme</button>
+    <select id="timeZone" class="timezone-select">
+        <option value="Local">Local</option>
+        <option value="UTC">UTC</option>
+        <option value="Asia/Tokyo">Asia/Tokyo</option>
+        <option value="America/New_York">America/New York</option>
+        <option value="Europe/London">Europe/London</option>
+        <option value="Europe/Paris">Europe/Paris</option>
+        <option value="Australia/Sydney">Australia/Sydney</option>
+        <option value="America/Los_Angeles">America/Los Angeles</option>
+        <option value="America/Toronto">America/Toronto</option>
+        <option value="Asia/Istanbul">Asia/Istanbul</option>
+        <option value="Asia/Dubai">Asia/Dubai</option>
+    </select>
+    <script src="main.js"></script>
+</body>
+</html>
